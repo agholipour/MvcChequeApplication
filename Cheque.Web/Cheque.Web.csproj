@@ -128,7 +128,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Attribute\MaxWordAttribute.cs" />
     <Compile Include="Controllers\ConverterController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ChequeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
