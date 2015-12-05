@@ -1,0 +1,33 @@
+﻿@model Cheque.Web.Models.ChequePreviewViewModel
+
+@{
+    ViewBag.Title = "Preview";
+}
+
+<h2>Preview</h2>
+
+<div>
+    <h4>Preview</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValueInText)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValueInText)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to Create", "Edit")
+</p>
